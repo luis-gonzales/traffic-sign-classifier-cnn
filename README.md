@@ -1,4 +1,6 @@
 ## Traffic Sign Classifier using Convolutional Neural Networks
+Expecting completion by Aug. 1, 2018
+
 This project consists of classifying (German) traffic signs using a convolutional neural network (CNN). Below is a sampling of the dataset with each row pertaining to a unique sign or class (stop, slippery road, etc). The write-up is also available at [www.lrgonzales.com/traffic-sign-classifier](http://www.lrgonzales.com/traffic-sign-classifier).
 
 <p align="center">
