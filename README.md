@@ -13,6 +13,17 @@ This project consists of classifying (German) traffic signs using a convolutiona
     </font>
 </figure>
 
+.center[
+
+<!---![My image](https://upload.wikimedia.org/wikipedia/commons/b/be/Sharingan_triple.svg)--->
+<img src='/figs/dataset-sampling.png' />
+
+.caption[
+**Fig. 1:** Image caption
+]
+
+]
+
 ### Introduction
 Classifying street signs is a challenging and important real-world problem, particularly with the promise of self-driving cars. The environment in which classification takes place is relatively constrained in that street signs are typically standardized for a given geographical region and the camera/s used to "see" the traffic signs is/are assumed to be positioned upright and to be stationary with respect to an observant vehicle. However, varied lighting and weather conditions — and even blur due to velocity — are expected.
 
