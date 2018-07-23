@@ -5,7 +5,7 @@ This project consists of classifying (German) traffic signs using a convolutiona
 
 <!---<div class="image-block-outer-wrapper layout-caption-below design-layout-inline">--->
 
-<div class="intrinsic" style="width:113pt;margin:auto;">
+<div class="intrinsic" style="width:113px;margin:auto;">
 
 <div style="padding-bottom:3.1%;" class="image-block-wrapper   has-aspect-ratio" data-description="&lt;p&gt;Fig. 2: istogram of the classes in the (a) training, (b) validation, and (c) test sets.&lt;/p&gt;" >
 
