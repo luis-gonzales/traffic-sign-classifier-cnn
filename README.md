@@ -34,9 +34,11 @@ The CNN architecture is inspired by ResNet and incorporates one skip-connection.
 The learning rate and batch size were treated as hyperparameters during the training process. Once both parameters were tuned, the final training procedure included a decay of the learning rate after 80 epochs, as shown below alongside the learning curves. The model was trained using dropout on the fully-connected layers, cross-entropy loss with a final softmax activation layer, and the Adam optimizer.
 
 <div align="center">
-  <p><img src="./figs/cnn-architecture.svg"></p>
-  <p>Fig. 3: CNN architecture used for traffic sign classification.</p>
+  <p><img src="./figs/learning-curves.svg"></p>
+  <p>Fig. 4: Learning curves with learning rate decay.</p>
 </div>
+
+### Performance
 
 ### Improvements
 Throughout the design, it became apparent that the methods used rely on a fairly smooth road, free of obstacles and relatively free of debris. For this reason, the input was preprocessed with a Gaussian blur. However, a Gaussian blur may not be enough for some unusual road surfaces or when obstacles or large debris are present. The danger is that these features could be mistaken for a lane in the algorithm. More advanced techniques, such as convolutional neural networks, could be more robust to such non-idealities.
