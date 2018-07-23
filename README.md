@@ -4,15 +4,7 @@ This project consists of classifying (German) traffic signs using a convolutiona
 <!---<div class=figure text-align="center">--->
 <div align="center">
   <p align="center"><img src="./figs/dataset-sampling.png"></p>
-  <!---<p display="inline-block" text-align="left">Fig. 1: Sampling of the German Traffic Sign Dataset <br/> fe.</p>--->
-      <div align="justify">
-        Centered<br />
-        Content<br />
-        That<br />
-        Is<br />
-        Left<br />
-        Aligned
-      </div>
+  <p display="inline-block" align="justify">Fig. 1: Sampling of the German Traffic Sign Dataset <br/> fe.</p>
 </div>
 
 ### Introduction
