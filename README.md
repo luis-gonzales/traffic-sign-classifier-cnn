@@ -42,7 +42,7 @@ The model achieves 98.2% accuracy on the validation set. To get a better sense f
 
 <div align="center">
   <p><img src="./figs/val-true-vs-pred.png"></p>
-  <p>Fig. 5: Examples of mistakes made on the validation set.</p>
+  <p>Fig. 5: Examples of mistakes <br/> made on the validation set.</p>
 </div>
 
 Fig. 5 shows examples of the errors made on the validation set, identified using the confusion matrix. The labels corresponding to the depicted traffic signs are included. All true labels in Fig. 5 had a limited number of examples (approximately 200) in the training set. As a result, data augmentation of these classes would likely reduce future errors. It's also worth noting that the third error depicted in Fig. 5 (true of 24, predicted of 18) only occurred for extremely dark examples with a label of 24. Note that the examples shown in Fig. 5 are not of the resolution used by the CNN (48 x 48, as opposed to 32 x 32).
