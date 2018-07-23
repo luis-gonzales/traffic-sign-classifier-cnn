@@ -2,9 +2,9 @@
 This project consists of classifying (German) traffic signs using a convolutional neural network (CNN). Below is a sampling of the dataset with each row pertaining to a unique sign or class (stop, slippery road, etc). A write-up is also available at [www.lrgonzales.com/traffic-sign-classifier](http://www.lrgonzales.com/traffic-sign-classifier).
 
 <!---<div class=figure text-align="center">--->
-<div align="center">
-  <p align="center"><img src="./figs/dataset-sampling.png"></p>
-  <p display="inline-block" align="justify">Fig. 1: Sampling of the German Traffic Sign Dataset <br/> fe.</p>
+<div class=figure align="center">
+  <p align="center"><img src="./figs/dataset-sampling.png">
+  <p display="inline-block" align="justify">Fig. 1: Sampling of the German Traffic Sign Dataset <br/> fe.
 </div>
 
 ### Introduction
