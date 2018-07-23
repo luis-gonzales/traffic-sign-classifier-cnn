@@ -1,29 +1,10 @@
 ## Traffic Sign Classifier using Convolutional Neural Networks
 This project consists of classifying (German) traffic signs using a convolutional neural network (CNN). Below is a sampling of the dataset with each row pertaining to a unique sign or class (stop, slippery road, etc). A write-up is also available at [www.lrgonzales.com/traffic-sign-classifier](http://www.lrgonzales.com/traffic-sign-classifier).
 
+<p align="center"><img src="./figs/dataset-sampling.png">
+<p>Fig. 1: Sampling of the German Traffic Sign Dataset <br/> fe.
 
 
-<!---<div class="image-block-outer-wrapper layout-caption-below design-layout-inline">--->
-
-<div style="width:113px;margin:auto;">
-
-<div style="padding-bottom:3.1%;" class="image-block-wrapper   has-aspect-ratio" data-description="&lt;p&gt;Fig. 2: istogram of the classes in the (a) training, (b) validation, and (c) test sets.&lt;/p&gt;" >
-
-  
-<!---<svg height="155pt" version="1.1" viewBox="0 0 213 155" width="213pt" xmlns="http://www.w3.org/2000/svg" --->
-<!---</svg>--->
-<img src="./figs/dataset-sampling.png">
-
-</div>
-  
-<div class="sqs-block-image">
-<div class="image-caption">
-<p>Fig. 2: Hstogram of the classes in the (a) training, (b) validation, and (c) test sets.</p>
-</div>
-</div>
-
-</div>
-<!---</div>--->
 
 ### Introduction
 Classifying street signs is a challenging and important real-world problem, particularly with the promise of self-driving cars. The environment in which classification takes place is relatively constrained in that street signs are typically standardized for a given geographical region and the camera(s) used to "see" the traffic signs is/are assumed to be positioned upright and to be stationary with respect to an observant vehicle. However, varied lighting and weather conditions — and even blur due to velocity — are expected.
