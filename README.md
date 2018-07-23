@@ -2,7 +2,7 @@
 This project consists of classifying (German) traffic signs using a convolutional neural network (CNN). A write-up is also available at [www.lrgonzales.com/traffic-sign-classifier](http://www.lrgonzales.com/traffic-sign-classifier).
 
 <figure>
-  <p><img src="./figs/dataset-sampling.png"
+  <p align="center"><img src="./figs/dataset-sampling.png"
     width="136" height="200"
     alt="Eiffel tower">
   <figcaption>Scale model of the
