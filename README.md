@@ -12,7 +12,7 @@ The above figure shows a sampling of the dataset used, the [German Traffic Sign 
 
 There are a total of 43 different classes. Below is a histogram of the classes in the training, validation, and test sets. The association between traffic sign name to label number can be found here [here](http://benchmark.ini.rub.de/?section=gtsrb&subsection=news).
 
-![Alt text](./figs/histogram.svg)
+<!---![Alt text](./figs/histogram.svg)--->
 <img src="./figs/histogram.svg">
 
 Preprocessing consists of resizing all of the images to a dimension of 32 x 32 x 3 (RGB), converting to grayscale [2], and normalizing from [0,255] to [−1,1).
