@@ -5,7 +5,7 @@ This project consists of classifying (German) traffic signs using a convolutiona
 <div align="center">
   <p align="center"><img src="./figs/dataset-sampling.png">
   <!---<p display="inline-block" text-align="left">Fig. 1: Sampling of the German Traffic Sign Dataset <br/> fe.</p>--->
-      <div align="left">
+      <div text-align="left">
         Centered<br />
         Content<br />
         That<br />
