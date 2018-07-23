@@ -2,7 +2,7 @@
 This project consists of classifying (German) traffic signs using a convolutional neural network (CNN). A write-up is also available at [www.lrgonzales.com/traffic-sign-classifier](http://www.lrgonzales.com/traffic-sign-classifier).
 
 <p align="center">
-<figure>
+<figure align="center">
   <img src="./figs/dataset-sampling.png" alt="Trulli" style="width:100%">
   <figcaption> Fig.1 - Trulli, Puglia, Italy. </figcaption>
 </figure>
