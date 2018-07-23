@@ -6,7 +6,7 @@ This project consists of classifying (German) traffic signs using a convolutiona
 </p>
 
 <figure>
-    <img src='/img/gdal-overview.png' />
+    <img src='/figs/dataset-sampling.png' />
     <font size="2">
     <figcaption> Abb.1: <a href= "http://r-spatial.org//2016/11/29/openeo.html">http://r-spatial.org//2016/11/29/openeo.html </a> 
     </figcaption>
