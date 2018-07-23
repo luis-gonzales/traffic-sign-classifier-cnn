@@ -15,20 +15,12 @@ Fig. 1 shows a sampling of the dataset used, the [German Traffic Sign Dataset](h
 
 <div align="center">
   <p><img src="./figs/histogram.svg"></p>
-  <p>Fig. 2: Histogram of the classes in the (a) training, (b) validation, and (c) test sets.</p>
+  <p>Fig. 2: Histogram of the classes in the <br/> (a) training, (b) validation, and (c) test sets.</p>
 </div>
 
-
-
-The above figure shows a sampling of the dataset used, the [German Traffic Sign Dataset](http://benchmark.ini.rub.de/?section=gtsrb&subsection=news), such that each row corresponds to a unique class. Each sample is shown in the actual resolution used by the CNN — 32 x 32. Note that the dataset includes slight rotations, blurring, differing levels of brightness, and even glare within each class. Given the varied representations built into the dataset, data augmentation was not implemented. If data augmentation were to be considered, note that the oft-used vertical flip would be detrimental to some classes (e.g., last two rows of figure above).
-
-There are a total of 43 different classes. Below is a histogram of the classes in the training, validation, and test sets. The association between traffic sign name to label number can be found here [here](http://benchmark.ini.rub.de/?section=gtsrb&subsection=news).
-
-<p align="center">
-<img src="./figs/histogram.svg">
-</p>
-
 Preprocessing consists of resizing all of the images to a dimension of 32 x 32 x 3 (RGB), converting to grayscale [2], and normalizing from [0,255] to [−1,1).
+
+Referring to Fig. 1, note that the dataset includes slight rotations, blurring, differing levels of brightness, and even glare within each class. Given the varied representations built into the dataset, data augmentation was not implemented. If data augmentation were to be considered, note that the oft-used vertical flip would be detrimental to some classes (e.g., last two rows of Fig. 1).
 
 ### CNN Architecture and Training
 
