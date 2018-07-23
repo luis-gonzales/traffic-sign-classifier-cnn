@@ -1,11 +1,14 @@
 ## Traffic Sign Classifier using Convolutional Neural Networks
 This project consists of classifying (German) traffic signs using a convolutional neural network (CNN). A write-up is also available at [www.lrgonzales.com/traffic-sign-classifier](http://www.lrgonzales.com/traffic-sign-classifier).
 
-<p align="center"; text-align="center">
-  <img src="./figs/dataset-sampling.png">
-  <figcaption> **Fig. 1:** Image caption </figcaption>
-</p>
-
+<figure>
+  <p><img src="./figs/dataset-sampling.png"
+    width="136" height="200"
+    alt="Eiffel tower">
+  <figcaption>Scale model of the
+    Eiffel tower in
+    Parc Mini-France</figcaption>
+</figure>
 
 ### Introduction
 Classifying street signs is a challenging and important real-world problem, particularly with the promise of self-driving cars. The environment in which classification takes place is relatively constrained in that street signs are typically standardized for a given geographical region and the camera/s used to "see" the traffic signs is/are assumed to be positioned upright and to be stationary with respect to an observant vehicle. However, varied lighting and weather conditions — and even blur due to velocity — are expected.
