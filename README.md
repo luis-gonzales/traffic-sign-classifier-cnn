@@ -3,7 +3,7 @@ This project consists of classifying (German) traffic signs using a convolutiona
 
 <p align="center">
 <figure align="center">
-  <img src="./figs/dataset-sampling.png" alt="Trulli" style="width:100%" align="center>
+  <img src="./figs/dataset-sampling.png" alt="Trulli" style="width:100%" align="center">
   <figcaption> Fig.1 - Trulli, Puglia, Italy. </figcaption>
 </figure>
 </p>
