@@ -5,34 +5,6 @@ This project consists of classifying (German) traffic signs using a convolutiona
   <img src="./figs/dataset-sampling.png" alt="Logo">
 </p>
 
-<figure>
-  <center><img src="./figs/dataset-sampling.png" alt="Trulli" style="width:100%"></center>
-  <figcaption> Fig.1 - Trulli, Puglia, Italy. </figcaption>
-</figure>
-
-<p align="center">
-<center><img src="./figs/dataset-sampling.png"></center>
-<figcaption> **Fig. 1:** Image caption </figcaption>
-</p>
-
-<figure>
-    <img src='/figs/dataset-sampling.png' />
-    <font size="2">
-    <figcaption> Abb.1: <a href= "http://r-spatial.org//2016/11/29/openeo.html">http://r-spatial.org//2016/11/29/openeo.html </a> 
-    </figcaption>
-    </font>
-</figure>
-
-.center[
-
-![My image]('/figs/dataset-sampling.png')
-
-.caption[
-**Fig. 1:** Image caption
-]
-
-]
-
 ### Introduction
 Classifying street signs is a challenging and important real-world problem, particularly with the promise of self-driving cars. The environment in which classification takes place is relatively constrained in that street signs are typically standardized for a given geographical region and the camera/s used to "see" the traffic signs is/are assumed to be positioned upright and to be stationary with respect to an observant vehicle. However, varied lighting and weather conditions — and even blur due to velocity — are expected.
 
