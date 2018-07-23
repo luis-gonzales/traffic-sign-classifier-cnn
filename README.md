@@ -1,6 +1,8 @@
 ## Traffic Sign Classifier using Convolutional Neural Networks
 This project consists of classifying (German) traffic signs using a convolutional neural network (CNN). A write-up is also available at [www.lrgonzales.com/traffic-sign-classifier](http://www.lrgonzales.com/traffic-sign-classifier).
 
+<p style="text-align:center;"><img src="./figs/dataset-sampling.png" alt="Logo"></p>
+
 <figure>
   <center><img src="./figs/dataset-sampling.png" alt="Trulli" style="width:100%"></center>
   <figcaption> Fig.1 - Trulli, Puglia, Italy. </figcaption>
