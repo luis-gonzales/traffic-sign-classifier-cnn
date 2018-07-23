@@ -10,9 +10,8 @@ This project consists of classifying (German) traffic signs using a convolutiona
 <div style="padding-bottom:3.1%;" class="image-block-wrapper   has-aspect-ratio" data-description="&lt;p&gt;Fig. 2: istogram of the classes in the (a) training, (b) validation, and (c) test sets.&lt;/p&gt;" >
 
   
-<svg height="155pt" version="1.1" viewBox="0 0 213 155" width="213pt" xmlns="http://www.w3.org/2000/svg" 
- </defs>
-</svg>
+<!---<svg height="155pt" version="1.1" viewBox="0 0 213 155" width="213pt" xmlns="http://www.w3.org/2000/svg" --->
+<!---</svg>--->
 <img src="./figs/dataset-sampling.png">
 
 </div>
