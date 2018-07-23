@@ -15,8 +15,7 @@ This project consists of classifying (German) traffic signs using a convolutiona
 
 .center[
 
-<!---![My image](https://upload.wikimedia.org/wikipedia/commons/b/be/Sharingan_triple.svg)--->
-<img src='/figs/dataset-sampling.png' />
+![My image]('/figs/dataset-sampling.png')
 
 .caption[
 **Fig. 1:** Image caption
