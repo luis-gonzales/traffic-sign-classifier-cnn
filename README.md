@@ -54,7 +54,8 @@ Beyond using data augmentation for classes with limited representation, increasi
 
 ### Usage
 #### Training
-Here
+The training, validation, and test sets can be found [here](https://s3-us-west-1.amazonaws.com/udacity-selfdrivingcar/traffic-signs-data.zip). Once extracted, .
+
 
 #### Inference
 Here
