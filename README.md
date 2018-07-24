@@ -53,16 +53,14 @@ The test set accuracy is 97.8%. The corresponding confusion matrix for the test 
 Beyond using data augmentation for classes with limited representation, increasing the image resolution may improve performance; however, the tradeoff would be increased run-time, an important aspect in practice.
 
 ### Usage
-#### Training
-The training, validation, and test sets can be found [here](https://s3-us-west-1.amazonaws.com/udacity-selfdrivingcar/traffic-signs-data.zip). Once downloaded, `train.p`, `valid.p`, and `test.p` should be saved to `./data`. Training can then begin by executing `python sign_classifier_train.py`. The `tensorflow` model is saved to `./tf_model`. `./src/sign_classifier_train.py` makes use of the chosen values for the hyperparameters (learning rate and batch size), but these can be changed by reassigning `alpha` and `batch_sz`.
+Run `./init.sh` to obtain the dataset and the saved TensorFlow model in `./data/` and `./tf_model/`, respectively.
 
+#### Training
+Run `python src/sign_classifier_train.py` to train the model. The trained TensorFlow model saves to `./tf_model`. `./src/sign_classifier_train.py` makes use of the chosen values for the hyperparameters (learning rate and batch size), but these can be changed by reassigning `alpha` and `batch_sz`.
 
 #### Inference
-Here
+The repository contains an image of a stop sign in `./imgs/stop_sign.png`. 
 
-The program can be performed on a `jpg` or `mp4` file from the `input` directory by executing `python lane_recog.py input/<file>` where `<file>` is the desired input.
-
-`lane_recog.py` does not make use of `src/edge_det.py` or `src/hough.py`.
 
 ### Dependencies
-The project makes use of `numpy`, `matplotlib`, and `tensorflow`.
+The project makes use of `numpy`, `matplotlib`, `tensorflow`, `wget`, and `gdrive`.
