@@ -54,7 +54,7 @@ Beyond using data augmentation for classes with limited representation, increasi
 
 ### Usage
 #### Training
-The training, validation, and test sets can be found [here](https://s3-us-west-1.amazonaws.com/udacity-selfdrivingcar/traffic-signs-data.zip). Once extracted, .
+The training, validation, and test sets can be found [here](https://s3-us-west-1.amazonaws.com/udacity-selfdrivingcar/traffic-signs-data.zip). Once downloaded, `train.p`, , and `.p` should be saved to `./data`. Training can then begin by executing `python`. The `tensorflow` model is saved to `./`.
 
 
 #### Inference
