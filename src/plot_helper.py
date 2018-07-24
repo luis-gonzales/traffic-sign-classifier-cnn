@@ -1,4 +1,5 @@
 import matplotlib.pyplot as plt
+import numpy as np
 
 # Plotting helper
 def plot_helper(ax, epochs, train_accs, val_accs, alpha_list, batch_size):
