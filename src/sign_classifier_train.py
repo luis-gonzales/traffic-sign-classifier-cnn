@@ -63,7 +63,7 @@ def evaluate(X_data, y_data, sess, batch_sz_eval):
   return eval_acc / len(X_data)
 
 
-# Train network
+# Train and save network
 f = plt.figure(figsize = (2.5,2.5))
 ax = f.add_subplot(1,1,1)
 
@@ -95,10 +95,6 @@ print('Training complete!')
   
 # Plot learning curves  
 plot_helper(ax, epochs, train_accs, val_accs, alpha_list, batch_sz)
-
-pickle.dump(train_accs, open('train_accs.p', mode='wb'))
-pickle.dump(val_accs, open('val_accs.p', mode='wb'))
-pickle.dump(alpha_list, open('alpha_list.p', mode='wb'))
 
 # Save model
 saver.save(sess, './tf_model/model.ckpt')
