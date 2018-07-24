@@ -53,6 +53,12 @@ The test set accuracy is 97.8%. The corresponding confusion matrix for the test 
 Beyond using data augmentation for classes with limited representation, increasing the image resolution may improve performance; however, the tradeoff would be increased run-time, an important aspect in practice.
 
 ### Usage
+#### Training
+Here
+
+#### Inference
+Here
+
 The program can be performed on a `jpg` or `mp4` file from the `input` directory by executing `python lane_recog.py input/<file>` where `<file>` is the desired input.
 
 `lane_recog.py` does not make use of `src/edge_det.py` or `src/hough.py`.
