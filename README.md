@@ -58,4 +58,4 @@ The program can be performed on a `jpg` or `mp4` file from the `input` directory
 `lane_recog.py` does not make use of `src/edge_det.py` or `src/hough.py`.
 
 ### Dependencies
-`lane_recog.py` makes use of `numpy`, `matplotlib`, `cv2`, and `moviepy` (for `.mp4` input files).
+The project makes use of `numpy`, `matplotlib`, and `tensorflow`.
