@@ -17,11 +17,11 @@ training_file   = "traffic_signs_data/train.p"
 validation_file = "traffic_signs_data/valid.p"
 testing_file    = "traffic_signs_data/test.p"
 
-pickle_in = open(training_file, mode='rb')
+pickle_in = open('data/train.p', mode='rb')
 train = pickle.load(pickle_in)
-pickle_in = open(validation_file, mode='rb')
+pickle_in = open('data/valid.p', mode='rb')
 val = pickle.load(pickle_in)
-pickle_in = open(testing_file, mode='rb')
+pickle_in = open('data/test.p', mode='rb')
 test = pickle.load(pickle_in)
 
 X_train, y_train = train['features'], train['labels']
