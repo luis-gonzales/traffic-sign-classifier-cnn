@@ -54,7 +54,7 @@ Beyond using data augmentation for classes with limited representation, increasi
 
 ### Usage
 #### Training
-The training, validation, and test sets can be found [here](https://s3-us-west-1.amazonaws.com/udacity-selfdrivingcar/traffic-signs-data.zip). Once downloaded, `train.p`, , and `.p` should be saved to `./data`. Training can then begin by executing `python`. The `tensorflow` model is saved to `./`.
+The training, validation, and test sets can be found [here](https://s3-us-west-1.amazonaws.com/udacity-selfdrivingcar/traffic-signs-data.zip). Once downloaded, `train.p`, `valid.p`, and `test.p` should be saved to `./data`. Training can then begin by executing `python sign_classifier_train.py`. The `tensorflow` model is saved to `./tf_model`. `./src/sign_classifier_train.py` makes use of the chosen values for the hyperparameters (learning rate and batch size), but these can be changed by reassigning `alpha` and `batch_sz`.
 
 
 #### Inference
