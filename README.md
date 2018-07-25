@@ -56,11 +56,14 @@ Beyond using data augmentation for classes with limited representation, increasi
 Run `./init.sh` to obtain the dataset and the saved TensorFlow model in `./data/` and `./tf_model/`, respectively.
 
 #### Training
-Run `python src/sign_classifier_train.py` to train the model. The trained TensorFlow model saves to `./tf_model`. `./src/sign_classifier_train.py` makes use of the chosen values for the hyperparameters (learning rate and batch size), but these can be changed by reassigning `alpha` and `batch_sz`.
+Run `python ./src/sign_classifier_train.py` to train the model. The trained TensorFlow model saves to `./tf_model/`. `./src/sign_classifier_train.py` makes use of the chosen values for the hyperparameters (learning rate and batch size), but these can be changed by reassigning `alpha` and `batch_sz`.
 
 #### Inference
-The repository contains an image of a stop sign in `./imgs/stop_sign.png`. 
+Inference can be performed by running `python ./src/sign_classifier_inference.py <img>` where `<img>` is a 32 x 32 RGB image compatible with `cv2.imread()`. `./imgs/stop_sign.png` is an image of a 20 KPH speed limit sign, and the terminal output is shown below.
+`Class   Softmax`
+`0   0.99`
+
 
 
 ### Dependencies
-The project makes use of `numpy`, `matplotlib`, `tensorflow`, `wget`, and `gdrive`.
+The project makes use of `numpy`, `matplotlib`, `tensorflow`, and `gdrive`.
