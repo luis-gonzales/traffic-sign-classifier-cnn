@@ -53,13 +53,13 @@ The test set accuracy is 97.8%. The corresponding confusion matrix for the test 
 Beyond using data augmentation for classes with limited representation, increasing the image resolution may improve performance; however, the tradeoff would be increased run-time, an important aspect in practice.
 
 ### Usage
-Run `./init.sh` to obtain the dataset and the saved TensorFlow model in `./data/` and `./tf_model/`, respectively.
+Run `./init.sh` to obtain the dataset in `./data/` and the saved TensorFlow model in `./tf_model/`.
 
 #### Training
-Run `python ./src/sign_classifier_train.py` to train the model. The trained TensorFlow model saves to `./tf_model/`. `./src/sign_classifier_train.py` makes use of the chosen values for the hyperparameters (learning rate and batch size), but these can be changed by reassigning `alpha` and `batch_sz`.
+Run `python ./src/sign_classifier_train.py` to train the model. The trained TensorFlow model saves to `./tf_model/`. the chosen values for The chosen values for the hyperparameters (learning rate and batch size) are predefined in `./src/sign_classifier_train.py`, but these can be changed by redefining `alpha` and `batch_sz`.
 
 #### Inference
-Inference can be performed by running `python ./src/sign_classifier_inference.py <img>` where `<img>` is a 32 x 32 RGB image compatible with `cv2.imread()`. As an example, `twenty_kph.png`, a compatible image of a 20 KPH speed limit sign, is included in `./imgs/`. To perform inference on this image, run `python ./src/sign_classifier_inference.py twenty_kph.png`.
+Inference can be performed by running `python ./src/sign_classifier_inference.py <img>` where `<img>` is a 32 x 32 RGB image compatible with `cv2.imread()`. As an example, `twenty_kph.png`, a compatible image of a 20 KPH speed limit sign, is included in `./imgs/`. To perform inference on this image, run `python ./src/sign_classifier_inference.py ./imgs/twenty_kph.png`.
 
 ### Dependencies
 The project makes use of `numpy`, `matplotlib`, `tensorflow`, `cv2`, and `gdrive`.
