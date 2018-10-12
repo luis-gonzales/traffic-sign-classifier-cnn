@@ -30,7 +30,7 @@ The CNN architecture is inspired by ResNet and incorporates one skip-connection.
   <p>Fig. 3: CNN architecture used for traffic sign classification.</p>
 </div>
 
-The learning rate and batch size were treated as hyperparameters during the training process. Once both parameters were tuned, the final training procedure included a decay of the learning rate after 80 epochs, as shown below alongside the learning curves. The model was trained using dropout on the fully-connected layers, cross-entropy loss with a final softmax activation layer, and the Adam optimizer.
+The learning rate and batch size were treated as hyperparameters during the training process. Final values of 0.5e-3 and 64, respectively, led to optimal performance. Once both parameters were tuned, the final training procedure included a decay of the learning rate after 80 epochs, as shown below alongside the learning curves. The model was trained using dropout of p = 0.5 on the fully-connected layers, cross-entropy loss with a final softmax activation layer, and the Adam optimizer.
 
 <div align="center">
   <p><img src="./figs/learning-curves.svg"></p>
